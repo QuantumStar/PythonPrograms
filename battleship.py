@@ -1,3 +1,6 @@
+# A mini, one-player version of the game 'Battleship'. Written by following along with the Python tutorial on Codecademy.
+# Original code updated from Python2 to Python3 by Wesley Swafford.
+
 from random import randint
 
 def battleship():
