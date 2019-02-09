@@ -14,9 +14,9 @@ def battleship():
         for row in board:
             print(" ".join(row))
 
-    
+
     print("\nLet's play Battleship!\n")
-    
+
     print_board(board)
 
     def random_row(board):
@@ -27,15 +27,16 @@ def battleship():
 
     ship_row = random_row(board)
     ship_col = random_col(board)
+
     # These two lines below are used to show the location of the 'ship' for debugging.
     #print ship_row
     #print ship_col
 
     turn = 0
     for turn in range(99):
-        
+
         print("\nTurn %s" % str(turn + 1))
-        
+
         guess_row = int(input("Guess Row: "))
         guess_col = int(input("Guess Col: "))
 
@@ -60,7 +61,7 @@ def battleship():
                 print("You guessed that one already.")
                 print
                 print_board(board)
-            
+
             else:
                 print
                 print("You missed my battleship!")
@@ -72,7 +73,7 @@ def battleship():
                     #print_board(board)
                     #break
                 print_board(board)
-    
+
 
     print
     print("Game Over")

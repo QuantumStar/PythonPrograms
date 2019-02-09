@@ -1,4 +1,4 @@
-# Guessing Game programming practice
+# Guessing Game programming practice, written from tutorial.
 
 import random
 

@@ -1,3 +1,5 @@
+# Not my code, written while following along with tutorial on YouTube.
+
 import pygame, sys
 from pygame.locals import *
 
@@ -10,4 +12,3 @@ while True:
             pygame.quit()
             sys.exit()
     pygame.display.update()
-    

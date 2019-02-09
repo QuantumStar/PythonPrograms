@@ -1,5 +1,7 @@
+# Original concept and code by Wesley Swafford, 2017
+
 import random
-    
+
 good = 777
 evil = 666
 
@@ -24,6 +26,3 @@ while goodCount < 99 or evilCount < 99:
         if goodCount == 99:
             print("\nGood has triumphed over Evil, peace will reign for a thousand years...!\n")
             exit()
-
-    
-

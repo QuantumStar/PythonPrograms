@@ -1,3 +1,6 @@
+# Not my code, written while following along with tutorial on YouTube for the
+# Kivy Python framework.
+
 import kivy
 from kivy.app import App
 from kivy.uix.label import Label
@@ -10,7 +13,7 @@ from kivy.properties import ObjectProperty
 class MyGrid(Widget):
     name = ObjectProperty(None)
     email = ObjectProperty(None)
-    
+
     def btn(self):
         print("\nName: ", self.name.text, "\nEmail: ", self.email.text)
         self.name.text = ""

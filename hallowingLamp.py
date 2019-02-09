@@ -1,3 +1,6 @@
+# The most basic of basic neopixel programs, written for a small desk light I made using
+# a neo-pixel strip.
+
 import board
 import neopixel
 import random
@@ -18,4 +21,4 @@ while True:
     time.sleep(0.01)
     pixels[(random.randint(0,29))] = (0,0,0)
     pixels.show()
-    time.sleep(0.01) ''' 
+    time.sleep(0.01) '''

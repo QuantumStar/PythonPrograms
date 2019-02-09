@@ -1,4 +1,6 @@
-# CircuitPython demo - NeoPixel
+# CircuitPython demo for Hallowing badge - NeoPixel - Written by Adafruit
+
+
 import time
 import board
 import neopixel

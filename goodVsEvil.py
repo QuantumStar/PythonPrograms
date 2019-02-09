@@ -1,5 +1,14 @@
+# Original concept and code by Wesley Swafford, 2017
+#
+# The only difference between this version and the 'fast' version is that this has a
+# wider range of random numbers (1, 999999). This is so modern computers don't run the program
+# so quickly that the process is too fast to see. The 'fast' version is better for the Raspberry Pi
+# or microcontrollers running Python.
+#
+#
+
 import random
-    
+
 good = 777
 evil = 666
 
@@ -22,6 +31,3 @@ while goodCount < 99 or evilCount < 99:
         if goodCount == 99:
             print("\nGood has triumphed over Evil, peace will reign for a thousand years...!\n")
             exit()
-
-    
-
