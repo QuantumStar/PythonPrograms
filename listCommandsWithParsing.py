@@ -7,7 +7,7 @@
 # the program again, etc., but this was mainly written to solve a specific challenge.
 
 if __name__ == '__main__':
-    N = int(input("\nHow many list commands would you like to run..?\n"))
+    n = int(input("\nHow many list commands would you like to run..?\n"))
     list = []
 
 def runCommands():
@@ -39,5 +39,5 @@ def runCommands():
         list.append(i)
         print(list)
 
-for o in range(N):
+for o in range(n):
     runCommands()
