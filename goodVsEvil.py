@@ -8,7 +8,7 @@
 # The only difference between this version and the 'fast' version is that this has a
 # wider range of random numbers (1, 999999). This is so modern computers don't run the program
 # so quickly that the process is too fast to see. The 'fast' version is better for the Raspberry Pi
-# or microcontrollers running Python.
+# or microcontrollers running Python. Should be fixed in program, but, I'm not sure how to do that as of now.
 #
 #
 
